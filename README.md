@@ -1,6 +1,6 @@
 # status-page-redux
 
-Updated OpenActive status page, auto-generated from DCAT data catalogue
+Updated OpenActive status page, auto-generated from [DCAT](https://www.w3.org/TR/vocab-dcat-2/) data catalogue
 
 ## Background
 
