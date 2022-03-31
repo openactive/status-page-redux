@@ -16,6 +16,11 @@ The purpose of redux status page is simply to provide an updated version of the 
 1. The columns 'Uses Paging Spec', 'Uses Opportunity Model', 'Includes coordinates', and 'Summary' will be removed.
 2. Columns for 'Facilities', 'Events', and 'Sessions' will be added. Values will be boolean.
 3. The list will be sortable alphabetically
-1. The display will be paginated
-1. A link will be provided to the originating DCAT data catalogue
-1. The UI and UX will not be so rubbish
+4. The list will be filterable by categories provided in the intermediate (`hasPart`) level of the data catalogs.
+5. The display will be paginated
+6. A link will be provided to the originating DCAT data catalogue
+7. The UI and UX will not be so rubbish
+
+### Stretch goals
+
+Validation of the data feeds is a stretch goal. The current implementation validates the first ten items in the feeds, which is arguably better than nothing but is unhelpful and/or misleading in some cases. Can we do better with this implementation?
